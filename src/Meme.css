@@ -1,0 +1,35 @@
+.meme {
+    position: relative;
+    color: white;
+  }
+
+.meme-top {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.meme-bottom {
+    position: absolute;
+    bottom: -8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.meme-image {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.meme-button {
+    position: absolute;
+    top: 50%;
+    float: right;
+    transform: translate(50%, -50%);
+    color: #FFF;
+    background-color: red;
+    padding: 10px 15px;
+}
